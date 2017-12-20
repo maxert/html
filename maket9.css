@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+.container
+{
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+  height: 98vh;
+	
+}
+p
+{
+	width:70%;
+	text-align: justify;
+	
+}
+.right
+{
+	margin: 10px;
+	text-align: left;
+}
+.left
+{
+	margin: 10px;
+}
+.none
+{
+	 flex-basis: 1400px;
+}
+.center-level
+{
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	height: 98vh;
+
+}
+.top
+{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	height:100px;
+    background-color: #fef3e0;
+	margin: 5px;
+	padding: 20px;
+}
+
+.center
+{
+	background-color: #fef3e0;
+	flex-grow: 3;
+	margin: 5px;
+	padding: 20px;
+	flex-basis:20%;
+}
+.center1
+{
+	display: flex;
+    	justify-content: center;
+    	align-items: center;
+    	background-color: #fef3e0;
+    	margin: 5px;
+    	padding: 20px;
+    	flex-basis: 80%;
+    	height: 20;
+}
+.bottom
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #fef3e0;
+	height: 100px;
+	margin: 5px;
+	padding: 20px;
+}
+.center-bottom
+{
+	margin: 10px;
+}

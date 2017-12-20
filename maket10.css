@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container
+{
+	display: flex;
+	flex-direction: column;
+	align-self: stretch;
+        height: 98vh;
+}
+.line
+{
+        height: 100%;
+	display: flex;
+	flex-direction: row;
+}
+.items
+{
+	background-color: #f3e5f4;
+	flex-grow: 2;
+	padding: 20px;
+	margin: 10px;
+}
+.items1
+{
+	background-color: #f3e5f4;
+	flex-grow: 1;
+	padding: 20px;
+	margin: 10px;
+	flex-basis:46%;
+}
+.items2
+{
+	background-color: #f3e5f4;
+	flex-grow: 1;
+	padding: 20px;
+	margin: 10px;
+}
+.items3
+{
+	background-color: #f3e5f4;
+
+	flex-grow: 1;
+	padding: 20px;
+	margin: 10px;
+}
+.items4
+{
+	background-color: #f3e5f4;
+	
+	flex-grow: 1;
+	padding: 20px;
+	margin: 10px;
+}

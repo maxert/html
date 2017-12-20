@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container
+{
+	display: flex;
+	flex-direction: column;
+	align-self: stretch;
+  height: 98vh;
+}
+.items
+{
+	background-color: aqua;
+	flex-grow: 1;
+	margin: 10px;
+	padding: 20px;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.line
+{
+	display: flex;
+	flex-direction: row;
+}
+.zoom
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 100%;
+	width:70%;
+	height: 200px;
+}
+.items3
+{
+	background-color: orange;
+	flex-grow: 1;
+	margin: 5px;
+	height: 70px;
+}
+.items4
+{
+	background-color: orange;
+	flex-grow: 1;
+	margin: 5px;
+	height: 70px;
+}
+.items5
+{
+	background-color: orange;
+	flex-grow: 1;
+	margin: 5px;
+	height: 70px;
+}
+.items6
+{
+	background-color: orange;
+	flex-grow: 1;
+	margin: 5px;
+	height: 70px;
+}
+.items7
+{
+	background-color: orange;
+	flex-grow: 1;
+	margin: 5px;
+	height: 70px;
+}
+.items8
+{
+	background-color: orange;
+	flex-grow: 2;
+	margin: 5px;
+	height: 70px;
+}
+.items9
+{
+	background-color: orange;
+	flex-grow: 1;
+	margin: 5px;
+	height: 70px;
+}
+.items10
+{
+	background-color: orange;
+	flex-grow: 1;
+	margin: 5px;
+	height: 70px;
+}

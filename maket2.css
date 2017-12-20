@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+.conteiner
+{
+	display: flex;
+	background-color: DodgerBlue;
+  height: 98vh;
+	flex-grow: 1;
+}
+.items
+{
+  	background-color: #f1f1f1;
+  	margin: 5px;
+  	padding:20px;
+  	font-size: 30px;
+	display: flex;
+	border-radius: 10px;
+    width:200px;	
+}
+.end
+{
+	display: flex;
+	align-self: flex-end;
+}
+.items2
+{
+  	background-color: #f1f1f1;
+  	margin: 5px;
+  	padding:20px;
+  	font-size: 30px;
+	display: flex;
+	border-radius: 10px; 
+   	
+}

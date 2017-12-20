@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+.container
+{
+ 	display: flex;
+    justify-content: center;
+	align-items: center;
+  height: 98vh;
+}
+.items
+{
+	text-align: justify;
+	border-radius: 10px; 
+	background-color: green;
+	width: 100px;
+	max-height:100%;
+	min-height:50%;
+	margin: 20px;
+  	padding:20px;
+  	font-size: 20px;
+	flex-basis:15%;
+	color: wheat;
+	text-align: center;
+}
+.items p
+{
+	text-align: justify;
+}
+img
+{
+	background-color: white;
+	height: 200px;
+	width: 200px;
+}

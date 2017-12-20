@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container
+{
+  height: 98vh;
+	display: flex;
+    justify-content: center;
+	align-items: center;
+}
+img
+{
+	width: 250px;
+	height: 250px;
+}
+.center
+{
+	width: 500px;
+	text-align: center;
+}
+.text-center
+{
+	text-align: center;
+}
+p
+{
+	text-align: justify;
+}
